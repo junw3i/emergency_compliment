@@ -1,5 +1,5 @@
 class Tax < ApplicationRecord
-    def tax( price )
+    def fuit_taxes( price )
         price * 7.5
     end
 end
